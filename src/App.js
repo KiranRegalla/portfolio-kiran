@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Header from "./Components/Header";
+import Hero from "./Components/Hero";
+import Services from "./Components/Services";
+import Portfolio from "./Components/Portfolio";
+import Testimonials from "./Components/Testimonials";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const[darkMode, setDarkMode] = useState(true);
+  return(
+    <div className={darkMode && "dark"}>
+      <Header darkMode={darkMode} setDarkMode={setDarkMode} />
+      <main className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+      <Hero />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
+      </main>
+      </div>
+  )
 }
 
 export default App;
