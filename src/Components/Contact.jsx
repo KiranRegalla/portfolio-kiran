@@ -32,7 +32,7 @@ const Contact = () => {
         </div>
         <div>
             <p className='max-w-xs md:max-w-lg font-light'>
-                If your interested in my profile feel free to reach out to me through prferred medium😊
+                If your interested in my profile feel free to reach out to me through preferred medium😊
             </p>
         </div>
         <div className='flex w-full items-center justify-evenly text-3xl'>

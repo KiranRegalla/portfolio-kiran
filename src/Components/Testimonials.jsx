@@ -1,6 +1,6 @@
 import React from 'react'
 import Section from './common/Section'
-import avatar from '../Assets/avatar.png'
+import avatar from '../Assets/Infosyslogo.jpg'
 function Testimonials() {
   const TESTIMONIALS =[
     {
