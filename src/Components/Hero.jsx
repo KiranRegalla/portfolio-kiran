@@ -55,7 +55,7 @@ const Hero = () => {
     {/* avatar and resume*/}
     <div>
         <img src={avatar} alt="avatar"className='w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-yellow-300 rounded-xl'/>
-        <a href="https://drive.google.com/uc?export=download&id=1j0bO9uw0TMHN0fftB4ol1M1eRGHztAlG" download={true} className='flex items-center justify-center mt-10 bg-gradient-to-r from-yellow-300 to-pink-500 text-white py-2 rounded-lg'>
+        <a href="https://drive.google.com/uc?export=download&id=1Vi0bOo_G8R5oiRV3PIRbkCHYQKLn2xfd" download={true} className='flex items-center justify-center mt-10 bg-gradient-to-r from-yellow-300 to-pink-500 text-white py-2 rounded-lg'>
             Resume
         </a>
     </div>
