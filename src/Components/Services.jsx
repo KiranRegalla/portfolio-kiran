@@ -1,9 +1,9 @@
 import React from 'react'
 import Section from './common/Section'
 
-import uft from "../Assets/UFT.jpg";
+import uft from "../Assets/UFt.jpg";
 import research from "../Assets/research.png";
-import web from "../Assets/web.png";
+import web from "../Assets/Framework.jpg";
 import Se from "../Assets/selenium.png";
 
 const Services = () => {
@@ -18,7 +18,7 @@ const Services = () => {
     {
         id: 2,
         image: web,
-        title: "Web Development",
+        title: "Automation Frame Works",
     },
     {
         id:3,

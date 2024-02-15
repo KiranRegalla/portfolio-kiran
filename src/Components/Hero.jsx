@@ -36,8 +36,8 @@ const Hero = () => {
     <p className='max-w-xl font-light text-gray-450'>Hello
         <span className='animate-pulse text-4xl'>👋</span>
         Welcome to my portfolio.
-        🔧 Experienced automation tester with 1.6 years of expertise in UFT and Selenium.
-        💻 Proficient in React JS front-end development ⚛️.
+        🔧 Experienced automation tester with 2.4 years of expertise in UFT and Selenium.
+        💻 Proficient in Creating Automation Frame Works 🤖.
     </p>
     {/* social icons*/}
     <div className='flex justify-evenly py-8 lg:py-16 text-3xl w-full md:w-1/3'>
