@@ -18,7 +18,7 @@ const Services = () => {
     {
         id: 2,
         image: web,
-        title: "Web Development",
+        title: "Automation FrameWorks",
     },
     {
         id:3,
